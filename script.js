@@ -54,3 +54,16 @@ let sebuahevent = document.querySelector('#buttonkedua');
 sebuahevent.addEventListener('click', () => {
     alert('HALLOOOO');
 });
+
+
+let myImage = document.querySelector('img');
+
+myImage.onclick = function(){
+    let mySrc = myImage.getAttribute('src');
+    if (mySrc === 'img/lupy1.png'){
+        myImage.setAttribute('src', 'img/lupy2.png');
+    }else{
+        myImage.setAttribute('src', 'img/lupy1.png');
+    }
+}
+
