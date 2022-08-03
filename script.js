@@ -67,3 +67,5 @@ myImage.onclick = function(){
     }
 }
 
+
+
